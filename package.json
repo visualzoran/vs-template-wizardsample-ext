@@ -23,6 +23,9 @@
         "postinstall": "node ./node_modules/vscode/bin/install",
         "test": "npm run compile && node ./node_modules/vscode/bin/test"
     },
+    "extensionDependencies": [
+        "visualzoran.vz-file-templates"
+    ],
     "devDependencies": {
         "typescript": "^2.6.1",
         "vscode": "^1.1.6",
