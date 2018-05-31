@@ -1,0 +1,24 @@
+{
+    "name" : "Sample html document wizard",
+    "description" : "Sample html document and css file created by wizard",
+    "defaultName" : "document.html",
+    "sortOrder" : "100",
+    "category" : "Html",
+    "iconLight" : "icon-light.svg",
+    "iconDark" : "icon-dark.svg",
+    "wizardName" : "vz.MyHtmlWizardDemo",
+    "elements" : [
+        {
+            "fileName" : "document.txt",
+            "targetName" : "$itemname$.html",
+            "replaceParameters" : true,
+            "open" : true
+        },
+        {
+            "fileName" : "css.txt",
+            "targetName" : "$itemname$.css",
+            "replaceParameters" : true,
+            "open" : true
+        }        
+    ]
+}
