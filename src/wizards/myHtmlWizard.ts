@@ -1,6 +1,7 @@
 'use strict';
 
 import * as vscode from 'vscode';
+import * as vzFileTemplates from 'vz-file-templates';
 import { MyHtmlWizardPage } from './myHtmlWizardPage';
 
 export class MyHtmlWizard implements vzFileTemplates.IProjectItemWizard {

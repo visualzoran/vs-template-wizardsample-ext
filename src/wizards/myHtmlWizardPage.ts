@@ -2,6 +2,7 @@
 
 import * as vscode from 'vscode';
 import * as path from 'path';
+import * as vzFileTemplates from 'vz-file-templates';
 import { ProjectItemWizardPage } from "./projectItemWizardPage";
 import { MyHtmlWizardData } from './myHtmlWizardData';
 

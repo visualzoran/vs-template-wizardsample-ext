@@ -1,6 +1,7 @@
 'use strict';
 
 import * as vscode from 'vscode';
+import * as vzFileTemplates from 'vz-file-templates';
 import { BaseWebViewEditor } from '../webviews/baseWebViewEditor';
 
 export class ProjectItemWizardPage extends BaseWebViewEditor {
