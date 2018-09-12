@@ -2,7 +2,7 @@
     "name": "vz-template-wizardsample-ext",
     "displayName": "vz-template-wizardsample-ext",
     "description": "Example showing how to extend vs-file-templates extension with multiple file template and wizard",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "visualzoran",
     "author": {
         "name": "Visual Zoran",
@@ -12,7 +12,7 @@
         "url": "https://github.com/visualzoran/vs-template-wizardsample-ext"
     },
     "engines": {
-        "vscode": "^1.23.0"
+        "vscode": "^1.26.0"
     },
     "categories": [
         "Other"
@@ -34,11 +34,11 @@
     ],
     "devDependencies": {
         "typescript": "^2.6.1",
-        "vscode": "^1.1.6",
-        "@types/node": "^7.0.43",
+        "vscode": "^1.1.21",
+        "@types/node": "^8.10.25",
         "@types/mocha": "^2.2.42"
     },
     "dependencies": {
-        "vz-file-templates": "0.0.6"
+        "vz-file-templates": "^1.0.1"
     }
 }
